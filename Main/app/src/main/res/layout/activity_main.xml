@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dl_right"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        tools:context=".MainActivity">-->
+    <!--android:background="@drawable/timg"-->
+
+    <!--侧滑菜单-->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000">
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="360dp"
+            android:layout_height="269dp"
+            android:layout_marginBottom="8dp"
+            android:background="#AAA"
+            android:horizontalSpacing="0dp"
+            android:numColumns="4"
+            android:verticalSpacing="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.431"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="69.45dp"
+            android:layout_height="67.25dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="86dp"
+            android:src="@drawable/yin"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteY="105dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="69.45dp"
+            android:layout_height="67.25dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/yin"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView3"
+            tools:layout_editor_absoluteX="30dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="69.45dp"
+            android:layout_height="67.25dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/yin"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView4"
+            tools:layout_editor_absoluteX="30dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="69.45dp"
+            android:layout_height="67.25dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/yin"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView2"
+            tools:layout_editor_absoluteX="30dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="228dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/shape"
+            android:fontFamily="casual"
+            android:text=" Select:"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.c_changing.main.CustomSeekBar
+            android:id="@+id/seekbar1"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="560dp"
+            android:layout_marginTop="92dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.c_changing.main.CustomSeekBar
+            android:id="@+id/seekbar2"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="560dp"
+            android:layout_marginTop="160dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.c_changing.main.CustomSeekBar
+            android:id="@+id/seekbar3"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="560dp"
+            android:layout_marginTop="228dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.c_changing.main.CustomSeekBar
+            android:id="@+id/seekbar4"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="560dp"
+            android:layout_marginTop="292dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/recode"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginTop="104dp"
+            android:src="@drawable/lu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/sound"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginTop="180dp"
+            android:src="@drawable/jie"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/right_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/right"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/setting"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginTop="260dp"
+            android:src="@drawable/set"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/time"
+            android:layout_width="106dp"
+            android:layout_height="74dp"
+            android:layout_marginBottom="268dp"
+            android:layout_marginEnd="60dp"
+            android:src="@drawable/logoo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/loop"
+            android:layout_width="69.45dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="284dp"
+            android:layout_marginEnd="180dp"
+            android:src="@drawable/v0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/quit"
+            android:layout_width="49dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/goback"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/right_drawer"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape"
+        android:layout_gravity="end"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/right_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="#000"
+            android:dividerHeight="1.5dp" />
+
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>
