@@ -12,3 +12,7 @@
 * Tomcat 8.5
 
 **After run the `TestWeb.war` in Tomcat, run the `main` in Android Studio.**
+
+### Collaborators
+* Chengjun Chen
+* Ruiying Zeng - (hungryzzz)[https://github.com/hungryzzz]
