@@ -15,4 +15,4 @@
 
 ### Collaborators
 * Chengjun Chen
-* Ruiying Zeng - (hungryzzz)[https://github.com/hungryzzz]
+* Ruiying Zeng - [hungryzzz](https://github.com/hungryzzz)
