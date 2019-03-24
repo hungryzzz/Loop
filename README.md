@@ -1,7 +1,8 @@
 # Loop
 
 ### Introduction
-* Simple Adroid app can recode, loop the records, upload and download audio from the local server. 
+* It is a app that realize the Loop Station by software. 
+* Players can recode, loop the records, upload and download audio from the local server. 
 * Project of Fudan University Mobile Internet course.
 * There is a demo above.
 * More details see the report.
