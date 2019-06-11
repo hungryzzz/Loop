@@ -3,7 +3,7 @@
 ### Introduction
 * It is a app that realize the Loop Station by software. 
 * Players can record, loop the records, upload and download audio from the local server. 
-* Project of Fudan University Mobile Internet course.
+* Project of Mobile Internet course.
 * There is a demo above.
 * More details see the report.
 
